@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ferramentas locais
+.pytest_cache/
+.remember/
+
+# Dados locais do arc (moram em ~/.config/arc; nunca devem entrar no repo)
+auth.json
+agendamentos.json
+config.json
+diagnostico-*.json
+*.log
+.env
+
+# Prints do app hOn (referência local, fora do repo)
+IMG_*.PNG
